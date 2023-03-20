@@ -1,0 +1,52 @@
+.admin-container {
+    width: 1000px;
+    min-height: 600px;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 80px auto;
+}
+
+.admin-container table {
+    width: 100%;
+    text-align:  left;
+}
+
+.admin-container tr {
+    height: 80px;
+    padding: 5px;
+}
+
+.button-submit {
+    margin: 10px 0 0 0;
+    background-color: white;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px black;
+    color: blue;
+}
+
+.wrong-message {
+    width: 300px;
+    min-height: 40px;
+    padding: 5px 30px 5px 10px;
+    background-color: rgba(240,0,0,0.9);
+    border-radius: 8px;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.wrong-inputs {
+    position: fixed;
+    bottom: 40px;
+    margin: 0 auto;
+}
+
+.close-icon {
+    position: absolute;
+    right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}

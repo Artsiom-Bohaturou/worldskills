@@ -1,0 +1,103 @@
+.home-container {
+    width: 1200px;
+    padding: 5px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.forms {
+    width: 600px;
+}
+
+.forms-select {
+    display: flex;
+    justify-content: center;
+}
+
+.select-form-button {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0,0.5);
+    transition: 0.5s;
+}
+
+.select-form-button:hover {
+    color:blue;
+    border-bottom: 1px solid blue;
+}
+
+.selected-button {
+    color:blue;
+    border: 1px solid blue;
+}
+
+.text-input {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    padding: 5px 0 5px 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0,0.5);
+    margin: 10px 0px;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.button-submit {
+    margin: 10px 0 0 auto;
+    background-color: blue;
+    color: #fff;
+}
+
+.form-checkbox {
+    margin-top: 5px;
+}
+
+.pets-section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.pet-photo {
+    width: 20%;
+    height: 200px;
+    text-align: center;
+}
+
+.pet-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrong-message {
+    width: 300px;
+    min-height: 40px;
+    padding: 5px 30px 5px 10px;
+    background-color: rgba(240,0,0,0.9);
+    border-radius: 8px;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.close-icon {
+    position: absolute;
+    right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.wrong-inputs {
+    position: fixed;
+    bottom: 40px;
+    margin: 0 auto;
+}

@@ -1,0 +1,182 @@
+.profile-container {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+    box-shadow: 0 0 5px black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.menu-container {
+
+}
+
+.line {
+    margin: 0 10px;
+    width: 1px;
+    background-color: rgba(0, 0, 0,0.6);
+    height: calc(100% + 20px);
+    position: relative;
+    top:-10px;
+}
+
+.menu-item {
+    min-width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.menu-item:hover {
+    color:blue;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.selected {
+    color:blue;
+}
+
+.applications-list {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.application {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.application img {
+    width: 70px;
+    height: 70px;
+    margin: 0 20px 0 5px;
+}
+
+.application > div {
+    width: 100%;
+    height: calc(100% - 5px);
+}
+
+.application:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.delete-button {
+    color:red;
+    background-color: inherit;
+}
+
+.modal {
+    position: fixed;
+    z-index: 5;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning-header {
+    height: 50px;
+    background-color: rgb(179, 6, 6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.close-icon {
+    cursor: pointer;
+}
+
+.warning-body {
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.warning-footer {
+    height: 60px;
+    padding: 5px;
+    border-top: 1px solid rgba(0, 0, 0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.delete-confirm-button {
+    color: #fff;
+    background-color: rgb(179, 6, 6);
+}
+
+.cancel-button {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.button-submit {
+    margin: 10px 0 0 auto;
+    background-color: blue;
+    color: #fff;
+}
+
+.create-application {
+    width: 100%;
+}
+
+.application-form {
+    width: 100%;
+}
+
+.application-form input {
+    margin: 10px 0;
+}
+
+.application-form-input {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+}
+
+.wrong-message {
+    width: 300px;
+    min-height: 40px;
+    padding: 5px 30px 5px 10px;
+    background-color: rgba(240,0,0,0.9);
+    border-radius: 8px;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.wrong-inputs {
+    position: fixed;
+    bottom: 40px;
+    margin: 0 auto;
+}
+
+.close-icon {
+    position: absolute;
+    right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
