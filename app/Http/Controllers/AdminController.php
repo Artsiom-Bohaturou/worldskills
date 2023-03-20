@@ -10,7 +10,7 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $data = Applications::all();
+        $data = Applications::with('user')->get();
 
         return view('admin', compact('data'));
     }
